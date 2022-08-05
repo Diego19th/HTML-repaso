@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesión 7</title>
+    <style>
+        table{
+            width: 600px;
+            height: 400px;
+            text-align: center;
+            margin: auto;
+           
+        }
+        body{
+            background-color: rgb(21, 214, 228);
+            text-align: center;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h1>Sesión 7</h1>
+    <h2>Tablas</h2>
+    <h3>Estructura de una tabla: thead, tbody, tfoot</h3>
+    <h3>Cómo combinar columnas con el atributo colspan y la cantidad de columnas que deseemos</h3>
+    <h3>Cómo combinar filas con el atributo rowspan y la cantidad de filas que deseemos</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>País</th>
+                <th>Continente</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Colombia</td>
+                <td rowspan="3">América</td>
+            </tr>
+            <tr>
+                <td>Argentina</td>
+            </tr>
+            <tr>
+                <td>Estados Unidos</td>
+
+            </tr>
+            <tr>
+                <td>Suecia</td>
+                <td>Europa</td>
+            </tr>
+            <tr>
+                <td>China</td>
+                <td>Asia</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Países del mundo</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
